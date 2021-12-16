@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>BrianMed.SmartCrop</PackageId>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>BrianMed.SmartCrop</RootNamespace>
+    <AssemblyName>BrianMed.SmartCrop</AssemblyName>
+    <Authors>Brian Medley</Authors>
+    <Company>Brian Medley</Company>
+    <Description>.Net 6 and ImageSharp port of Jonas Wagner's smartcrop.js content aware image cropping library.</Description>
+    <Copyright>2021</Copyright>
+    <PackageProjectUrl>https://github.com/brianmed/SmartCrop</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/brianmed/SmartCrop</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>smartcrop crop dotnet-core dotnet-standard</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>0.0.1</Version>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.4" />
+  </ItemGroup>
+
+</Project>
